@@ -27,7 +27,7 @@ class ChangeUserInvest(StatesGroup):
     invest_part = State()
     strategy_name = State()
 
-  
+
 class StrategyConfig(StatesGroup):
     """State for config new strategy."""
     name = State()
